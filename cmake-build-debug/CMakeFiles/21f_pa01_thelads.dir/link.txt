@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/21f_pa01_thelads.dir/src/main.cpp.o CMakeFiles/21f_pa01_thelads.dir/src/painting.cpp.o CMakeFiles/21f_pa01_thelads.dir/src/wall.cpp.o -o 21f_pa01_thelads 
