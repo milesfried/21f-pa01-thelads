@@ -17,7 +17,7 @@ void wall::addPainting(painting &newPainting) {
     else if (wallList.size() == 0) {
         newPainting.setX(0);
         newPainting.setY(0);
-        cout << "Adding " << newPainting.getID() << endl;
+       // cout << "Adding " << newPainting.getID() << endl;
         wallList.push_back(newPainting);
 
     } else {
@@ -75,7 +75,7 @@ void wall::addPainting(painting &newPainting) {
                 max_Y = newPainting.getY() + newPainting.getHeight();
 
             }
-            cout << "Adding " << newPainting.getID() << endl;
+            //cout << "Adding " << newPainting.getID() << endl;
             wallList.push_back(newPainting);
         }
     }
