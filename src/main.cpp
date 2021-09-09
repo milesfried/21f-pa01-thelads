@@ -76,6 +76,7 @@ int main(int argC, char* argV[]) {
 
 
 }
+//this algorithm tests all permutations of a data set and determines the maximum value
 void bruteForceAlgo(vector<painting>& paintings, wall canvas, string fileName){
     size_t found = fileName.find_last_of('.');
     string bruteName = fileName.insert(found, "-bruteforce");
@@ -93,6 +94,7 @@ void bruteForceAlgo(vector<painting>& paintings, wall canvas, string fileName){
 
 
 }
+//this algorithm sorts the paintings by their monetary value and then adds them starting from the highest first
 void expenseAlgo(vector<painting>& paintings, wall canvas, string fileName){
     size_t found = fileName.find_last_of('.');
     string expenseName = fileName.insert(found, "-highvalue");
@@ -116,7 +118,7 @@ void expenseAlgo(vector<painting>& paintings, wall canvas, string fileName){
     fileOut.close();
 
 }
-
+//this function sorts the paintings by size and then adds the smallest paintings first
 void customAlgo(vector<painting>& paintings, wall canvas, string fileName){
     size_t found = fileName.find_last_of('.');
     string customName = fileName.insert(found, "-custom");
@@ -141,7 +143,7 @@ void customAlgo(vector<painting>& paintings, wall canvas, string fileName){
     fileOut.close();
 
 }
-
+//this function provides all possible permutations for a vector of paintings
 void heapPermutation(vector<painting>& paintings, int size, int n, wall canvas){
     if (size == 1){
         paintingsAdd(paintings, canvas);
@@ -165,12 +167,14 @@ void heapPermutation(vector<painting>& paintings, int size, int n, wall canvas){
     }
 
 }
+//this function adds a vector of  paintings to a wall
 void paintingsAdd(vector<painting> paintings, wall& canvas){
     canvas.clear();
     for (int i = 0; i < paintings.size(); i++){
         canvas.addPainting(paintings[i]);
     }
 }
+//this function takes a file and wall, and writes information about the wall to the file
 void writeOut(ofstream& fileOut, wall& canvas){
     //fileOut << "ID " << "Value " << "Width " << "Height " << "X " << "Y " << endl;
     for(int i = 0; i < canvas.getList().size(); i++){
@@ -182,6 +186,6 @@ void writeOut(ofstream& fileOut, wall& canvas){
         fileOut << canvas.getList().at(i).getY() << endl;
 
     }
-    fileOut << canvas.getValue() << endl;
+    fileOut << "Total Value: " << canvas.getValue() << endl;
 }
 
