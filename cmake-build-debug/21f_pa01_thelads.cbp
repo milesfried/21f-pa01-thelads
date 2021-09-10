@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="21f_pa01_thelads"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21f_pa01_thelads">
+				<Option output="/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/21f_pa01_thelads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 21f_pa01_thelads"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21f_pa01_thelads/fast">
+				<Option output="/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/21f_pa01_thelads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 21f_pa01_thelads/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yeet/Desktop/CS/21f-pa01-thelads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yeet/Desktop/CS/21f-pa01-thelads/src/main.cpp">
+			<Option target="21f_pa01_thelads"/>
+		</Unit>
+		<Unit filename="/Users/yeet/Desktop/CS/21f-pa01-thelads/src/painting.cpp">
+			<Option target="21f_pa01_thelads"/>
+		</Unit>
+		<Unit filename="/Users/yeet/Desktop/CS/21f-pa01-thelads/src/painting.h">
+			<Option target="21f_pa01_thelads"/>
+		</Unit>
+		<Unit filename="/Users/yeet/Desktop/CS/21f-pa01-thelads/src/wall.cpp">
+			<Option target="21f_pa01_thelads"/>
+		</Unit>
+		<Unit filename="/Users/yeet/Desktop/CS/21f-pa01-thelads/src/wall.h">
+			<Option target="21f_pa01_thelads"/>
+		</Unit>
+		<Unit filename="/Users/yeet/Desktop/CS/21f-pa01-thelads/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+/input/input3-custom.txt
+/input/input3-highvalue.txt
+/input/input3-bruteforce.txt
+/input/input2-highvalue.txt
+/input/input2-bruteforce.txt
+/input/input-bruteforce.txt
+/input/input-highvalue.txt
+/input/input-custom.txt
+/input/input2-custom.txt
+/input/input-highvalue.txt
+/input/input-custom.txt
+/input/input-bruteforce.txt
