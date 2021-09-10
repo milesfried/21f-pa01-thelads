@@ -24,3 +24,5 @@ Sample (Custom Algo)Output:
 
 From the test sets we have ran, we have seen our brute force algorithm is the most sucessful (however it does not work past 10 paintings).
 Our custom algorithm seems to be better than the highest value algorithm, but this might be due to the limitations of our placement algorithm.
+
+-Steve and Miles
